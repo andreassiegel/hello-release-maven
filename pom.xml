@@ -37,10 +37,12 @@
               <supportBranchPrefix>support/</supportBranchPrefix>
               <versionTagPrefix>v</versionTagPrefix>
               <origin>origin</origin>
+              <keepBranch>true</keepBranch>
             </gitFlowConfig>
             <commitMessages>
               <releaseStartMessage>${release.ticket} - Set release version to @{version}</releaseStartMessage>
               <releaseFinishMessage>${release.ticket} - Set next development snapshot version to @{version}</releaseFinishMessage>
+              <tagReleaseMessage>Release tag for version @{version}</tagReleaseMessage>
             </commitMessages>
           </configuration>
         </plugin>
