@@ -4,7 +4,7 @@
 
   <groupId>de.andreassiegel</groupId>
   <artifactId>hello-release</artifactId>
-  <version>1.4</version>
+  <version>1.5-SNAPSHOT</version>
 
   <properties>
     <maven.compiler.source>15</maven.compiler.source>
