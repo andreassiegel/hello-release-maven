@@ -9,8 +9,9 @@
   <properties>
     <maven.compiler.source>15</maven.compiler.source>
     <maven.compiler.target>15</maven.compiler.target>
+
     <gitflow-maven-plugin.version>1.16.0</gitflow-maven-plugin.version>
-    <release.ticket></release.ticket>
+    <commitPrefix/> <!-- default commit message prefix to empty string -->
   </properties>
 
   <scm>
@@ -31,16 +32,13 @@
             <gitFlowConfig>
               <productionBranch>main</productionBranch>
               <developmentBranch>develop</developmentBranch>
-              <featureBranchPrefix>feature/</featureBranchPrefix>
               <releaseBranchPrefix>release/</releaseBranchPrefix>
-              <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
-              <supportBranchPrefix>support/</supportBranchPrefix>
               <versionTagPrefix>v</versionTagPrefix>
               <origin>origin</origin>
             </gitFlowConfig>
             <commitMessages>
-              <releaseStartMessage>${release.ticket} - Set release version to @{version}</releaseStartMessage>
-              <releaseFinishMessage>${release.ticket} - Set next development snapshot version to @{version}</releaseFinishMessage>
+              <releaseStartMessage>${commitPrefix}Set release version to @{version}</releaseStartMessage>
+              <releaseFinishMessage>${commitPrefix}Set next development snapshot version to @{version}</releaseFinishMessage>
               <tagReleaseMessage>Release tag for version @{version}</tagReleaseMessage>
             </commitMessages>
           </configuration>

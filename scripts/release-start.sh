@@ -9,6 +9,6 @@ then
   echo "Release handling ticket must be provided"
   exit 1
 else
-  mvn gitflow:release-start -DpushRemote=true -Drelease.ticket="${releaseTicket}"
+  mvn gitflow:release-start -DpushRemote=true -DcommitPrefix="${releaseTicket} - "
   exit 0
 fi
