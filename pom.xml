@@ -4,14 +4,13 @@
 
   <groupId>de.andreassiegel</groupId>
   <artifactId>hello-release</artifactId>
-  <version>1.4</version>
+  <version>1.5</version>
 
   <properties>
     <maven.compiler.source>15</maven.compiler.source>
     <maven.compiler.target>15</maven.compiler.target>
     <gitflow-maven-plugin.version>1.16.0</gitflow-maven-plugin.version>
     <release.ticket></release.ticket>
-    <keepBranch>true</keepBranch>
   </properties>
 
   <scm>
