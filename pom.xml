@@ -4,7 +4,7 @@
 
   <groupId>de.andreassiegel</groupId>
   <artifactId>hello-release</artifactId>
-  <version>1.2</version>
+  <version>1.2-SNAPSHOT</version>
 
   <properties>
     <maven.compiler.source>15</maven.compiler.source>
@@ -16,7 +16,7 @@
     <url>https://github.com/andreassiegel/hello-release</url>
     <connection>scm:git:ssh://git@github.com/andreassiegel/hello-release.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/andreassiegel/hello-release.git</developerConnection>
-    <tag>v1.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <build>
