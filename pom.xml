@@ -16,7 +16,7 @@
     <url>https://github.com/andreassiegel/hello-release</url>
     <connection>scm:git:ssh://git@github.com/andreassiegel/hello-release.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/andreassiegel/hello-release.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>v1.1</tag>
   </scm>
 
   <build>
